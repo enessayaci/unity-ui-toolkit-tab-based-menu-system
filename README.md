@@ -1,6 +1,6 @@
 # UI Toolkit template for Unity mobile game
 
-![App Screenshot](https://raw.githubusercontent.com/enessayaci/unity-ui-toolkit-tab-based-menu-system/main/Assets/UI/Public/Readme/presentation.gif)
+<img src="https://raw.githubusercontent.com/enessayaci/unity-ui-toolkit-tab-based-menu-system/main/Assets/UI/Public/Readme/presentation.gif" width="300">
 
 
 This is not a completed UI/UX design; it is just a template that you can use to enhance your game.
