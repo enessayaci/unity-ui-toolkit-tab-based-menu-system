@@ -1,4 +1,6 @@
 
+<img src="https://raw.githubusercontent.com/enessayaci/unity-ui-toolkit-tab-based-menu-system/main/Assets/UI/Public/Readme/colors.png" width="48">
+
 # UI Toolkit template for unity mobile game
 
 ![App Screenshot](https://raw.githubusercontent.com/enessayaci/unity-ui-toolkit-tab-based-menu-system/main/Assets/UI/Public/Readme/presentation.gif)
