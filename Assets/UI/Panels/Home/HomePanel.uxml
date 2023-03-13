@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Panels/Home/HomePanel.uss?fileID=7433441132597879392&amp;guid=333dbfedfb0d94e14bb11aa4bf00c946&amp;type=3#HomePanel" />
+    <ui:VisualElement name="Content" class="bg-secondary bg-green" style="flex-grow: 1;">
+        <ui:Label tabindex="-1" text="HOME PANEL" display-tooltip-when-elided="true" name="Label" style="align-self: center; margin-left: auto; margin-right: auto; margin-top: auto; margin-bottom: auto; font-size: 80px; color: rgb(255, 255, 255);" />
+    </ui:VisualElement>
+</ui:UXML>

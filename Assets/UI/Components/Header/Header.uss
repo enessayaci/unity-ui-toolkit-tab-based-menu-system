@@ -1,0 +1,14 @@
+#CoinLabel{
+    margin-right: var(--margin-base);
+}
+#CoinLabel .label-icon{
+    background-image: url('project://database/Assets/UI/Public/Icons/coin.png');
+}
+
+#UserLabel .label-icon{
+    background-image: url('project://database/Assets/UI/Public/Icons/setting.png');
+}
+
+#GemLabel .label-icon{
+    background-image: url('project://database/Assets/UI/Public/Icons/gem.png');
+}

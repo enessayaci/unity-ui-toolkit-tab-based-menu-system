@@ -1,0 +1,28 @@
+:root{
+    --text-color-base: var(--primary-dark-60);
+
+    --radius-base: 32px;
+    --radius-large: 48px;
+    --border-width-small: 3px;
+    --border-width-base: 6px;
+    --border-width-large: 16px;
+
+    --margin-base:24px;
+    --margin-large:32px;
+
+    --padding-small:12px;
+    --padding-base:24px;
+    --padding-large:32px;
+
+    --button-pressed-transition: 0.1s;
+    --button-square-base: 200px;
+    --icon-square-base: 160px;
+
+    --icon-width-base: 160px;
+    --icon-width-small: 100px;
+    --icon-width-large: 200px;
+
+    /*these 2 variable will be set when you decide how much your header and footer has height as pixels it is automaticly added to each main tab menu content. eg SettingsPanel, HomePanel, ShopPanel... to not to overlay these panels' content over the header or footer.*/
+    --top-offset: 264px;
+    --bottom-offset: 300px;
+}

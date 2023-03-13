@@ -1,0 +1,4 @@
+#Content{
+    padding-top: var(--top-offset);
+    padding-bottom: var(--bottom-offset);
+}

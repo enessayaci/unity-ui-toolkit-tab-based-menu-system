@@ -1,0 +1,286 @@
+*{
+    color: var(--text-color-base);
+}
+
+#BottomBar{
+    justify-content: space-between;
+}
+
+#Header {
+    position: absolute;
+    top: 65px;
+    width: 100%;
+}
+
+#Container{
+    padding: var(--padding-base);
+}
+
+
+
+.btn{
+    border-radius: var(--radius-base);
+    background-color: var(--grey);
+    border-color: var(--grey-dark-20);
+}
+
+.btn-square{
+    width: var(--button-square-base);
+    height: var(--button-square-base);
+}
+
+.btn #fill {
+    background-color: var(--grey);
+    border-width:3px 3px;
+    border-radius: var(--radius-base);
+    transition: translate var(--button-pressed-transition) linear, background-color var(--button-pressed-transition) linear;
+    justify-content:center;
+    align-items:center;
+    
+}
+
+.btn #icon-area #mask-icon-area{
+    border-width:3px 3px;
+    width: var(--button-square-base);
+    height: var(--button-square-base);
+    left:85px;
+    top: 27px;
+}
+
+.btn #icon-area{
+    width: var(--button-square-base);
+    height: var(--button-square-base);
+}
+
+.btn #icon{
+    width: var(--icon-square-base);
+    height: var(--icon-square-base);
+    min-width: var(--icon-square-base);
+    min-height: var(--icon-square-base);
+    max-width: var(--icon-square-base);
+    max-height: var(--icon-square-base);
+    margin:auto;
+     -unity-background-image-tint-color: var(--grey-dark-20);
+    transition: -unity-background-image-tint-color var(--button-pressed-transition) linear;
+}
+
+.btn #icon-area #mask-icon{
+    -unity-background-image-tint-color: var(--grey);
+    width: var(--icon-square-base);
+    height: var(--icon-square-base);
+    min-width: var(--icon-square-base);
+    min-height: var(--icon-square-base);
+    max-width: var(--icon-square-base);
+    max-height: var(--icon-square-base);
+    margin:auto;
+}
+
+.btn #shadow{
+    border-bottom-left-radius: var(--radius-base);
+    border-bottom-right-radius: var(--radius-base);
+    background-color: var(--grey-dark-20);
+}
+
+.btn #balloon{
+    background-color: var(--grey-light-80);
+    border-radius: 0px;
+}
+
+.btn #balloon-little{
+    background-color: var(--grey-dark-20);
+}
+
+.btn #extraborder {
+    border-width:7px 1px 15px 1px;
+    border-radius: var(--radius-base);
+    border-color: var(--grey-light-80);
+}
+
+.btn:active #fill {
+    translate: 0px 15px;
+    background-color: var(--grey-light-85);
+    transition: translate var(--button-pressed-transition) linear, background-color var(--button-pressed-transition) linear;
+}
+
+.btn:active #icon-area{
+    -unity-background-image-tint-color: var(--primary-dark-40);
+    transition: -unity-background-image-tint-color var(--button-pressed-transition) linear;
+};
+
+.btn #spirit {
+    scale: 0.95;
+    opacity: 0.5;
+    display:none;
+    border-radius: var(--radius-base);
+}
+
+.btn:focus #spirit {
+    display:flex;
+    scale: 1.03;
+    opacity: 0;
+    translate: 0px -50px;
+    transition: scale 0.35s linear, opacity 0.35s linear, translate 0.35s linear; 
+}
+
+
+
+
+.btn-rounded-large{
+    border-radius: var(--radius-large);
+}
+.btn-rounded-large #balloon{
+    border-radius: 125px;
+}
+.btn-rounded-large #fill {
+    border-radius: var(--radius-large);
+}
+.btn-rounded-large #shadow{
+    border-bottom-left-radius: var(--radius-large);
+    border-bottom-right-radius: var(--radius-large);
+}
+.btn-rounded-large #extraborder {
+    border-radius: var(--radius-large);
+}
+.btn-rounded-large #spirit {
+    border-radius: var(--radius-large);
+}
+
+
+
+
+
+
+.btn-primary #fill {
+    background-color: var(--primary);
+    border-color: var(--primary-dark-40);
+}
+
+.btn-primary #icon{
+    -unity-background-image-tint-color: var(--primary-dark-60);
+}
+.btn-primary #icon-area #mask-icon{
+    -unity-background-image-tint-color: var(--primary-dark-40);
+}
+
+.btn-primary #shadow{
+    background-color: var(--primary-dark-60);
+}
+
+.btn-primary #balloon{
+    background-color: var(--primary-light-30);
+}
+
+.btn-primary #balloon-little{
+    background-color: var(--primary);
+}
+
+.btn-primary #extraborder {
+    border-color: var(--primary-light-30);
+}
+
+.btn-primary:active #fill {
+    background-color: var(--primary-light-40);
+}
+
+.bg-primary-light-40{
+    background-color: var(--primary-light-40);
+}
+
+.bg-primary-light-60{
+    background-color: var(--primary-light-60);
+}
+
+.bg-primary-light-80{
+    background-color: var(--primary-light-80);
+}
+
+.bg-secondary{
+    background-color: var(--secondary);
+}
+.bg-red{
+    background-color: var(--red);
+}
+.bg-blue{
+    background-color: var(--blue);
+}
+.bg-green{
+    background-color: var(--green);
+}
+
+.label-default{
+    flex-direction: row;
+    border-radius: var(--radius-base);
+    border-color: var(--primary-light-30);
+    border-width: var(--border-width-small) var(--border-width-large) var(--border-width-large) var(--border-width-small);
+    background-color: var(--primary);
+    padding:3px var(--padding-small);
+}
+.label-default-outer{
+    overflow:hidden;
+    border-radius: var(--radius-base);
+    border-width: var(--border-width-small) 0px 0px var(--border-width-small);
+    border-color: var(--primary-dark-40); 
+}
+
+.label-default .label-text{
+    font-size: 48px;
+}
+
+.label-default .label-icon{
+    -unity-background-scale-mode: scale-to-fit
+    -unity-background-slice-top: 9;
+    flex-grow: 0;
+    flex-shrink:0;
+    width: var(--icon-width-small);
+}
+
+/* Sets each label in tabs to have the same size. */
+
+
+/* Adds background color for the selected tab */
+.currentlySelectedTab .btn #icon{
+    -unity-background-image-tint-color: var(--grey);
+}
+
+.currentlySelectedTab .btn #fill {
+    background-color: var(--grey-light-85);
+    translate: 0px 15px;
+    transition: translate var(--button-pressed-transition) linear, background-color var(--button-pressed-transition) linear;
+}
+
+.currentlySelectedTab .btn-primary #icon{
+    -unity-background-image-tint-color: var(--primary-dark-40);
+}
+
+.currentlySelectedTab .btn-primary #fill {
+    background-color: var(--primary-light-40);
+}
+
+/* Hides the unselected tab content */
+.unselectedContent {
+
+    display: none;
+}
+
+#SettingsTab  #icon{
+    background-image: url('project://database/Assets/UI/Public/Icons/setting.png');
+}
+#SettingsTab  #mask-icon{
+    background-image: url('project://database/Assets/UI/Public/Icons/setting.png');
+}
+#ShopTab  #icon{
+    background-image: url('project://database/Assets/UI/Public/Icons/shop.png');
+}
+#ShopTab  #mask-icon{
+    background-image: url('project://database/Assets/UI/Public/Icons/shop.png');
+}
+#HomeTab  #icon{
+    background-image: url('project://database/Assets/UI/Public/Icons/home.png');
+}
+#HomeTab  #mask-icon{
+    background-image: url('project://database/Assets/UI/Public/Icons/home.png');
+}
+
+
+
+

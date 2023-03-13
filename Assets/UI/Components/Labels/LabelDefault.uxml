@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement class="label-default-outer" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);">
+        <ui:VisualElement name="VisualElement" class="label-default" style="flex-grow: 1; flex-direction: row;">
+            <ui:VisualElement class="label-icon" style="background-color: rgba(0, 0, 0, 0);" />
+            <ui:Label tabindex="-1" text="Label" display-tooltip-when-elided="true" class="label-text" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

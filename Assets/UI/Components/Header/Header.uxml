@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:Template name="LabelDefault" src="project://database/Assets/UI/Components/Labels/LabelDefault.uxml?fileID=9197481963319205126&amp;guid=a002abe39e96447b69cada4c6218eda7&amp;type=3#LabelDefault" />
+    <Style src="project://database/Assets/UI/Components/Header/Header.uss?fileID=7433441132597879392&amp;guid=45910cd190a8742a6853247271689cdb&amp;type=3#Header" />
+    <ui:VisualElement name="Container" style="flex-grow: 1; flex-direction: row;">
+        <ui:Instance template="LabelDefault" name="UserLabel" style="flex-direction: row; align-self: flex-start;" />
+        <ui:Instance template="LabelDefault" name="CoinLabel" style="flex-direction: row; align-self: flex-start; margin-left: auto;" />
+        <ui:Instance template="LabelDefault" name="GemLabel" style="flex-direction: row; align-self: flex-start;" />
+    </ui:VisualElement>
+</ui:UXML>

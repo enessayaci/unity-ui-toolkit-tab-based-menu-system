@@ -1,0 +1,13 @@
+
+/* Sets each label in tabs to have the same size. */
+
+
+/* Adds background color for the selected tab */
+.currentlySelectedTab #fill {
+    background-color: rgb(173, 166, 166);
+}
+
+/* Hides the unselected tab content */
+.unselectedContent {
+    display: none;
+}

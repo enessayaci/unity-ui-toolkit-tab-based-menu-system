@@ -1,0 +1,20 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:Button text="&#10;" display-tooltip-when-elided="true" name="Button" class="btn btn-primary btn-rounded-large btn-square" style="overflow: visible; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; background-color: rgba(188, 188, 188, 0);">
+        <ui:VisualElement name="shadow" style="flex-grow: 1; position: absolute; left: 0; right: 0; bottom: -40px; height: 100px; display: flex;" />
+        <ui:VisualElement name="fill" style="flex-grow: 1; position: absolute; left: 0; right: auto; height: 100%; top: auto; max-width: none; max-height: none; width: 100%; overflow: hidden;">
+            <ui:VisualElement name="extraborder" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); position: absolute; width: 100%; height: 100%;" />
+            <ui:VisualElement name="balloon" style="flex-grow: 1; position: absolute; left: -48px; top: -120px; width: 172px; height: 284px; rotate: 60deg;" />
+            <ui:VisualElement name="balloon-little" style="flex-grow: 1; position: absolute; left: 25px; top: 25px; width: 20px; height: 15px; border-top-left-radius: 100px; border-bottom-left-radius: 100px; border-top-right-radius: 100px; border-bottom-right-radius: 100px; rotate: 71deg;" />
+            <ui:VisualElement name="icon-area" usage-hints="None" style="flex-grow: 1; position: absolute; -unity-background-scale-mode: scale-to-fit;">
+                <ui:VisualElement name="icon" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0);" />
+                <ui:VisualElement name="mask" style="flex-grow: 1; position: absolute; left: -48px; top: -120px; width: 172px; height: 284px; rotate: 60deg; overflow: hidden; border-top-left-radius: 125px; border-bottom-left-radius: 125px; border-top-right-radius: 125px; border-bottom-right-radius: 125px;">
+                    <ui:VisualElement name="mask-icon-area" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); position: absolute; rotate: -60deg;">
+                        <ui:VisualElement name="mask-icon" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); position: relative; rotate: 0;" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:Label name="buttonText" tabindex="-1" text="Label" display-tooltip-when-elided="true" style="position: absolute; left: 0; top: 0; right: 0; bottom: 0; font-size: 72px; -unity-font: url(&apos;project://database/Assets/UI/MainThemeFile.tss?fileID=2230732570650464555&amp;guid=063d60d7e057e4c6aa361bf49ea5eb0f&amp;type=3#NotInter-Regular&apos;); -unity-font-style: bold; display: none;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="spirit" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); border-left-width: 10px; border-right-width: 10px; border-top-width: 10px; border-bottom-width: 10px; border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); position: absolute; width: 100%; height: 100%; top: 20px;" />
+    </ui:Button>
+</ui:UXML>
