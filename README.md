@@ -9,8 +9,9 @@ Provides a tab system for main panels(settings, shop, home vs.)
 
 
 # Folder Structure
-All icons and images will be placed into "Public" Folder
-Components like Buttons, Labels or Header Footer eg will be placed in "Components"
+All icons and images will be placed into "Public" Folder.
+
+Components like Buttons, Labels or Header Footer eg will be placed in "Components".
 
 Panels like Settings, Shop, Home ... will be placed into "Panels" folder. 
 
